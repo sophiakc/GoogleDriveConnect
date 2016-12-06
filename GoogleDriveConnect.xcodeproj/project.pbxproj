@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554BBC4014AA63719AF41D1D /* Pods_GoogleDriveConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA35D9AA548BF59D2A187F7D /* Pods_GoogleDriveConnectTests.framework */; };
+		7E7B4E441DF76D6E00D6A26C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B4E431DF76D6E00D6A26C /* AppDelegate.swift */; };
+		7E7B4E461DF76D6E00D6A26C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B4E451DF76D6E00D6A26C /* ViewController.swift */; };
+		7E7B4E491DF76D6E00D6A26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7B4E471DF76D6E00D6A26C /* Main.storyboard */; };
+		7E7B4E4B1DF76D6E00D6A26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7B4E4A1DF76D6E00D6A26C /* Assets.xcassets */; };
+		7E7B4E4E1DF76D6E00D6A26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7B4E4C1DF76D6E00D6A26C /* LaunchScreen.storyboard */; };
+		7E7B4E591DF76D6F00D6A26C /* GoogleDriveConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B4E581DF76D6F00D6A26C /* GoogleDriveConnectTests.swift */; };
+		7E7B4E641DF76D6F00D6A26C /* GoogleDriveConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B4E631DF76D6F00D6A26C /* GoogleDriveConnectUITests.swift */; };
+		9CB8F2B14BCCE9D3205FE3B6 /* Pods_GoogleDriveConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE879F0CC798337AB5E0B64A /* Pods_GoogleDriveConnect.framework */; };
+		B5048269FFC6619D4591D70C /* Pods_GoogleDriveConnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91D1167D53CD65E807C89D4 /* Pods_GoogleDriveConnectUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E7B4E551DF76D6F00D6A26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7B4E381DF76D6E00D6A26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7B4E3F1DF76D6E00D6A26C;
+			remoteInfo = GoogleDriveConnect;
+		};
+		7E7B4E601DF76D6F00D6A26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7B4E381DF76D6E00D6A26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7B4E3F1DF76D6E00D6A26C;
+			remoteInfo = GoogleDriveConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9C960887338DC00D14C494 /* Pods-GoogleDriveConnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveConnectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveConnectUITests/Pods-GoogleDriveConnectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		29F6C8C257468642DAD16FB9 /* Pods-GoogleDriveConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveConnect.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveConnect/Pods-GoogleDriveConnect.release.xcconfig"; sourceTree = "<group>"; };
+		6E77EF65A26E404C2D422F40 /* Pods-GoogleDriveConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveConnectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveConnectTests/Pods-GoogleDriveConnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E7B4E401DF76D6E00D6A26C /* GoogleDriveConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDriveConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7B4E431DF76D6E00D6A26C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E7B4E451DF76D6E00D6A26C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E7B4E481DF76D6E00D6A26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E7B4E4A1DF76D6E00D6A26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E7B4E4D1DF76D6E00D6A26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E7B4E4F1DF76D6E00D6A26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7B4E541DF76D6F00D6A26C /* GoogleDriveConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDriveConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7B4E581DF76D6F00D6A26C /* GoogleDriveConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDriveConnectTests.swift; sourceTree = "<group>"; };
+		7E7B4E5A1DF76D6F00D6A26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7B4E5F1DF76D6F00D6A26C /* GoogleDriveConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDriveConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7B4E631DF76D6F00D6A26C /* GoogleDriveConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDriveConnectUITests.swift; sourceTree = "<group>"; };
+		7E7B4E651DF76D6F00D6A26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5739A017465CCC04D46E6C /* Pods-GoogleDriveConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveConnectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveConnectTests/Pods-GoogleDriveConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8494E0402A0732FA75411BA /* Pods-GoogleDriveConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveConnect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveConnect/Pods-GoogleDriveConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		A91D1167D53CD65E807C89D4 /* Pods_GoogleDriveConnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDriveConnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC93ABF2436833F8532F1BAA /* Pods-GoogleDriveConnectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveConnectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveConnectUITests/Pods-GoogleDriveConnectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA35D9AA548BF59D2A187F7D /* Pods_GoogleDriveConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDriveConnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE879F0CC798337AB5E0B64A /* Pods_GoogleDriveConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDriveConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E7B4E3D1DF76D6E00D6A26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB8F2B14BCCE9D3205FE3B6 /* Pods_GoogleDriveConnect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B4E511DF76D6F00D6A26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554BBC4014AA63719AF41D1D /* Pods_GoogleDriveConnectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B4E5C1DF76D6F00D6A26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5048269FFC6619D4591D70C /* Pods_GoogleDriveConnectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22233F650B96F66E531E549F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8494E0402A0732FA75411BA /* Pods-GoogleDriveConnect.debug.xcconfig */,
+				29F6C8C257468642DAD16FB9 /* Pods-GoogleDriveConnect.release.xcconfig */,
+				9E5739A017465CCC04D46E6C /* Pods-GoogleDriveConnectTests.debug.xcconfig */,
+				6E77EF65A26E404C2D422F40 /* Pods-GoogleDriveConnectTests.release.xcconfig */,
+				BC93ABF2436833F8532F1BAA /* Pods-GoogleDriveConnectUITests.debug.xcconfig */,
+				0D9C960887338DC00D14C494 /* Pods-GoogleDriveConnectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D34812EDF0BFEA9868EAB2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE879F0CC798337AB5E0B64A /* Pods_GoogleDriveConnect.framework */,
+				CA35D9AA548BF59D2A187F7D /* Pods_GoogleDriveConnectTests.framework */,
+				A91D1167D53CD65E807C89D4 /* Pods_GoogleDriveConnectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E7B4E371DF76D6E00D6A26C = {
+			isa = PBXGroup;
+			children = (
+				7E7B4E421DF76D6E00D6A26C /* GoogleDriveConnect */,
+				7E7B4E571DF76D6F00D6A26C /* GoogleDriveConnectTests */,
+				7E7B4E621DF76D6F00D6A26C /* GoogleDriveConnectUITests */,
+				7E7B4E411DF76D6E00D6A26C /* Products */,
+				22233F650B96F66E531E549F /* Pods */,
+				7D34812EDF0BFEA9868EAB2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7B4E411DF76D6E00D6A26C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B4E401DF76D6E00D6A26C /* GoogleDriveConnect.app */,
+				7E7B4E541DF76D6F00D6A26C /* GoogleDriveConnectTests.xctest */,
+				7E7B4E5F1DF76D6F00D6A26C /* GoogleDriveConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E7B4E421DF76D6E00D6A26C /* GoogleDriveConnect */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B4E431DF76D6E00D6A26C /* AppDelegate.swift */,
+				7E7B4E451DF76D6E00D6A26C /* ViewController.swift */,
+				7E7B4E471DF76D6E00D6A26C /* Main.storyboard */,
+				7E7B4E4A1DF76D6E00D6A26C /* Assets.xcassets */,
+				7E7B4E4C1DF76D6E00D6A26C /* LaunchScreen.storyboard */,
+				7E7B4E4F1DF76D6E00D6A26C /* Info.plist */,
+			);
+			path = GoogleDriveConnect;
+			sourceTree = "<group>";
+		};
+		7E7B4E571DF76D6F00D6A26C /* GoogleDriveConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B4E581DF76D6F00D6A26C /* GoogleDriveConnectTests.swift */,
+				7E7B4E5A1DF76D6F00D6A26C /* Info.plist */,
+			);
+			path = GoogleDriveConnectTests;
+			sourceTree = "<group>";
+		};
+		7E7B4E621DF76D6F00D6A26C /* GoogleDriveConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B4E631DF76D6F00D6A26C /* GoogleDriveConnectUITests.swift */,
+				7E7B4E651DF76D6F00D6A26C /* Info.plist */,
+			);
+			path = GoogleDriveConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E7B4E3F1DF76D6E00D6A26C /* GoogleDriveConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7B4E681DF76D6F00D6A26C /* Build configuration list for PBXNativeTarget "GoogleDriveConnect" */;
+			buildPhases = (
+				5049A13BE5C144E3F61F4C84 /* [CP] Check Pods Manifest.lock */,
+				7E7B4E3C1DF76D6E00D6A26C /* Sources */,
+				7E7B4E3D1DF76D6E00D6A26C /* Frameworks */,
+				7E7B4E3E1DF76D6E00D6A26C /* Resources */,
+				5F91586D50F67DA65436EA9E /* [CP] Embed Pods Frameworks */,
+				0C964DDB31AF4E0EFAC7522B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleDriveConnect;
+			productName = GoogleDriveConnect;
+			productReference = 7E7B4E401DF76D6E00D6A26C /* GoogleDriveConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E7B4E531DF76D6F00D6A26C /* GoogleDriveConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7B4E6B1DF76D6F00D6A26C /* Build configuration list for PBXNativeTarget "GoogleDriveConnectTests" */;
+			buildPhases = (
+				FD4C5BCD495B8FA18FCDE80C /* [CP] Check Pods Manifest.lock */,
+				7E7B4E501DF76D6F00D6A26C /* Sources */,
+				7E7B4E511DF76D6F00D6A26C /* Frameworks */,
+				7E7B4E521DF76D6F00D6A26C /* Resources */,
+				5F676034C879F250BB18FCE9 /* [CP] Embed Pods Frameworks */,
+				BD2E150C3C01CDEA12AA78F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7B4E561DF76D6F00D6A26C /* PBXTargetDependency */,
+			);
+			name = GoogleDriveConnectTests;
+			productName = GoogleDriveConnectTests;
+			productReference = 7E7B4E541DF76D6F00D6A26C /* GoogleDriveConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E7B4E5E1DF76D6F00D6A26C /* GoogleDriveConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7B4E6E1DF76D6F00D6A26C /* Build configuration list for PBXNativeTarget "GoogleDriveConnectUITests" */;
+			buildPhases = (
+				B91EDA8297CF031632D5380D /* [CP] Check Pods Manifest.lock */,
+				7E7B4E5B1DF76D6F00D6A26C /* Sources */,
+				7E7B4E5C1DF76D6F00D6A26C /* Frameworks */,
+				7E7B4E5D1DF76D6F00D6A26C /* Resources */,
+				4FFBC280CF736C897E9E00DA /* [CP] Embed Pods Frameworks */,
+				ACEF3FB239849A9593F489BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7B4E611DF76D6F00D6A26C /* PBXTargetDependency */,
+			);
+			name = GoogleDriveConnectUITests;
+			productName = GoogleDriveConnectUITests;
+			productReference = 7E7B4E5F1DF76D6F00D6A26C /* GoogleDriveConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7B4E381DF76D6E00D6A26C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sophia KC";
+				TargetAttributes = {
+					7E7B4E3F1DF76D6E00D6A26C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					7E7B4E531DF76D6F00D6A26C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E7B4E3F1DF76D6E00D6A26C;
+					};
+					7E7B4E5E1DF76D6F00D6A26C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E7B4E3F1DF76D6E00D6A26C;
+					};
+				};
+			};
+			buildConfigurationList = 7E7B4E3B1DF76D6E00D6A26C /* Build configuration list for PBXProject "GoogleDriveConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E7B4E371DF76D6E00D6A26C;
+			productRefGroup = 7E7B4E411DF76D6E00D6A26C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E7B4E3F1DF76D6E00D6A26C /* GoogleDriveConnect */,
+				7E7B4E531DF76D6F00D6A26C /* GoogleDriveConnectTests */,
+				7E7B4E5E1DF76D6F00D6A26C /* GoogleDriveConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E7B4E3E1DF76D6E00D6A26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7B4E4E1DF76D6E00D6A26C /* LaunchScreen.storyboard in Resources */,
+				7E7B4E4B1DF76D6E00D6A26C /* Assets.xcassets in Resources */,
+				7E7B4E491DF76D6E00D6A26C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B4E521DF76D6F00D6A26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B4E5D1DF76D6F00D6A26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C964DDB31AF4E0EFAC7522B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveConnect/Pods-GoogleDriveConnect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FFBC280CF736C897E9E00DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveConnectUITests/Pods-GoogleDriveConnectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5049A13BE5C144E3F61F4C84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F676034C879F250BB18FCE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveConnectTests/Pods-GoogleDriveConnectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F91586D50F67DA65436EA9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveConnect/Pods-GoogleDriveConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACEF3FB239849A9593F489BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveConnectUITests/Pods-GoogleDriveConnectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91EDA8297CF031632D5380D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2E150C3C01CDEA12AA78F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveConnectTests/Pods-GoogleDriveConnectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4C5BCD495B8FA18FCDE80C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E7B4E3C1DF76D6E00D6A26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7B4E461DF76D6E00D6A26C /* ViewController.swift in Sources */,
+				7E7B4E441DF76D6E00D6A26C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B4E501DF76D6F00D6A26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7B4E591DF76D6F00D6A26C /* GoogleDriveConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B4E5B1DF76D6F00D6A26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7B4E641DF76D6F00D6A26C /* GoogleDriveConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7B4E561DF76D6F00D6A26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7B4E3F1DF76D6E00D6A26C /* GoogleDriveConnect */;
+			targetProxy = 7E7B4E551DF76D6F00D6A26C /* PBXContainerItemProxy */;
+		};
+		7E7B4E611DF76D6F00D6A26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7B4E3F1DF76D6E00D6A26C /* GoogleDriveConnect */;
+			targetProxy = 7E7B4E601DF76D6F00D6A26C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E7B4E471DF76D6E00D6A26C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7B4E481DF76D6E00D6A26C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E7B4E4C1DF76D6E00D6A26C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7B4E4D1DF76D6E00D6A26C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E7B4E661DF76D6F00D6A26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E7B4E671DF76D6F00D6A26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E7B4E691DF76D6F00D6A26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8494E0402A0732FA75411BA /* Pods-GoogleDriveConnect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleDriveConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.GoogleDriveConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7E7B4E6A1DF76D6F00D6A26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F6C8C257468642DAD16FB9 /* Pods-GoogleDriveConnect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleDriveConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.GoogleDriveConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7E7B4E6C1DF76D6F00D6A26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5739A017465CCC04D46E6C /* Pods-GoogleDriveConnectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleDriveConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.GoogleDriveConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleDriveConnect.app/GoogleDriveConnect";
+			};
+			name = Debug;
+		};
+		7E7B4E6D1DF76D6F00D6A26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E77EF65A26E404C2D422F40 /* Pods-GoogleDriveConnectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleDriveConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.GoogleDriveConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleDriveConnect.app/GoogleDriveConnect";
+			};
+			name = Release;
+		};
+		7E7B4E6F1DF76D6F00D6A26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC93ABF2436833F8532F1BAA /* Pods-GoogleDriveConnectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoogleDriveConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.GoogleDriveConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoogleDriveConnect;
+			};
+			name = Debug;
+		};
+		7E7B4E701DF76D6F00D6A26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9C960887338DC00D14C494 /* Pods-GoogleDriveConnectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoogleDriveConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.GoogleDriveConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoogleDriveConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E7B4E3B1DF76D6E00D6A26C /* Build configuration list for PBXProject "GoogleDriveConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7B4E661DF76D6F00D6A26C /* Debug */,
+				7E7B4E671DF76D6F00D6A26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7B4E681DF76D6F00D6A26C /* Build configuration list for PBXNativeTarget "GoogleDriveConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7B4E691DF76D6F00D6A26C /* Debug */,
+				7E7B4E6A1DF76D6F00D6A26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E7B4E6B1DF76D6F00D6A26C /* Build configuration list for PBXNativeTarget "GoogleDriveConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7B4E6C1DF76D6F00D6A26C /* Debug */,
+				7E7B4E6D1DF76D6F00D6A26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E7B4E6E1DF76D6F00D6A26C /* Build configuration list for PBXNativeTarget "GoogleDriveConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7B4E6F1DF76D6F00D6A26C /* Debug */,
+				7E7B4E701DF76D6F00D6A26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E7B4E381DF76D6E00D6A26C /* Project object */;
+}

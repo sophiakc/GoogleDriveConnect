@@ -1,0 +1,6 @@
+framework module Pods_GoogleDriveConnectTests {
+  umbrella header "Pods-GoogleDriveConnectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
